@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     var validation = Validation()
-    @IBOutlet weak var lblValidationMessage: UILabel!
+    
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblValidationMessage.isHidden = true
+        
         // Do any additional setup after loading the view.
     }
 

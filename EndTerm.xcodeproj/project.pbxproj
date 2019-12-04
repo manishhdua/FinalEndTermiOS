@@ -15,6 +15,8 @@
 		7375E7FA2397EB61008F29FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7375E7F82397EB61008F29FD /* LaunchScreen.storyboard */; };
 		7375E80223980386008F29FD /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7375E80123980386008F29FD /* validation.swift */; };
 		7375E80423980DCA008F29FD /* RegisterationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7375E80323980DCA008F29FD /* RegisterationViewController.swift */; };
+		7375E80623981F09008F29FD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7375E80523981F09008F29FD /* ProfileViewController.swift */; };
+		7375E808239838DF008F29FD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7375E807239838DF008F29FD /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		7375E7FB2397EB61008F29FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7375E80123980386008F29FD /* validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
 		7375E80323980DCA008F29FD /* RegisterationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationViewController.swift; sourceTree = "<group>"; };
+		7375E80523981F09008F29FD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7375E807239838DF008F29FD /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				7375E7EF2397EB5F008F29FD /* SceneDelegate.swift */,
 				7375E7F12397EB5F008F29FD /* ViewController.swift */,
 				7375E80323980DCA008F29FD /* RegisterationViewController.swift */,
+				7375E80523981F09008F29FD /* ProfileViewController.swift */,
+				7375E807239838DF008F29FD /* CameraViewController.swift */,
 				7375E80123980386008F29FD /* validation.swift */,
 				7375E7F32397EB5F008F29FD /* Main.storyboard */,
 				7375E7F62397EB61008F29FD /* Assets.xcassets */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7375E80623981F09008F29FD /* ProfileViewController.swift in Sources */,
 				7375E80423980DCA008F29FD /* RegisterationViewController.swift in Sources */,
 				7375E7F22397EB5F008F29FD /* ViewController.swift in Sources */,
 				7375E7EE2397EB5F008F29FD /* AppDelegate.swift in Sources */,
+				7375E808239838DF008F29FD /* CameraViewController.swift in Sources */,
 				7375E80223980386008F29FD /* validation.swift in Sources */,
 				7375E7F02397EB5F008F29FD /* SceneDelegate.swift in Sources */,
 			);
@@ -293,12 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W48JHZR768;
 				INFOPLIST_FILE = EndTerm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manish.EndTerm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manishdua.EndTerm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +319,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W48JHZR768;
 				INFOPLIST_FILE = EndTerm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.manish.EndTerm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manishdua.EndTerm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
